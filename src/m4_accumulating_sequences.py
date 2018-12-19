@@ -18,24 +18,24 @@ def main():
     run_test_make_simple_string()
     run_test_make_less_simple_string()
 
-    # ------------------------------------------------------------------
-    # TODO: 8. Uncomment the tests below before working TO DO 9.
+    # -------------------------------------------------------------------------
+    # TODO: 8. Uncomment the tests below before working _TODO_ 9.
     #   They launch annoying rg.RoseWindows on each run that you don't want
-    #   until you get to TO DO 9 and 10.
-    # ------------------------------------------------------------------
+    #   until you get to _TODO_ 9 and _TODO_ 10.
+    # -------------------------------------------------------------------------
     # run_test_draw_shapes()
     # run_test_rectangles_from_circles()
 
 
 def run_test_make_simple_list():
     """ Tests the   make_simple_list    function. """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 2. Implement this TEST function.
     #   It TESTS the  make_simple_list  function defined below.
     #   Include at least **   2   ** tests.
     #
     # Use the same 4-step process as for previous TEST functions.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     print()
     print('--------------------------------------------------')
     print('Testing the   make_simple_list   function:')
@@ -68,21 +68,21 @@ def make_simple_list(m, n):
       :type m: int
       :type n: int
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 3. Implement and test this function.
     #   Note that you should write its TEST function first (above).
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
 def run_test_make_simple_string():
     """ Tests the   make_simple_string    function. """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 4. Implement this TEST function.
     #   It TESTS the  make_simple_string  function defined below.
     #   Include at least **   2   ** tests.
     #
     # Use the same 4-step process as for previous TEST functions.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     print()
     print('--------------------------------------------------')
     print('Testing the   make_simple_string   function:')
@@ -109,21 +109,21 @@ def make_simple_string(m, n):
       :type m: int
       :type n: int
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 5. Implement and test this function.
     #   Note that you should write its TEST function first (above).
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
 def run_test_make_less_simple_string():
     """ Tests the   make_less_simple_string    function. """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 6. Implement this TEST function.
     #   It TESTS the  make_less_simple_string  function defined below.
     #   Include at least **   2   ** tests.
     #
     # Use the same 4-step process as for previous TEST functions.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     print()
     print('--------------------------------------------------')
     print('Testing the   make_less_simple_string   function:')
@@ -152,10 +152,10 @@ def make_less_simple_string(m, n):
       :type m: int
       :type n: int
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 7. Implement and test this function.
     #   Note that you should write its TEST function first (above).
-    # -----------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
 def run_test_draw_shapes():
@@ -171,9 +171,9 @@ def run_test_draw_shapes():
     print('Then it should show 4 more shapes: a green circle,')
     print('  a yellow rectangle, a red circle and a thick black line.')
 
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # Test 1 is ALREADY DONE (here).
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     window = rg.RoseWindow(500, 330, 'draw_shapes, two tests')
     circles = [rg.Circle(rg.Point(50, 50), 50),
                rg.Circle(rg.Point(120, 50), 20),
@@ -186,12 +186,12 @@ def run_test_draw_shapes():
     draw_shapes(circles, window)
     window.continue_on_mouse_click()
 
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # Test 2 is ALREADY DONE (here).
     # It runs in the same window as Test 1.
     # The bottom circle should appear only PARTIALLY in the window;
     # that is purposeful.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     rect_width = 100
     rect_height = 160
     rect_center = rg.Point(350, 100)
@@ -235,17 +235,18 @@ def draw_shapes(shapes, window):
       :type shapes:  list | tuple of rg._Shape
       :type window:  rg.RoseWindow
     """
-    # ------------------------------------------------------------------
-    # TODO: 9. Implement and test this function. Make sure you do TO DO 8 in main first!
-    #     The testing code is already written for you (that you just enabled in TO DO 8).
+    # -------------------------------------------------------------------------
+    # TODO: 9. Implement and test this function.
+    #             *** Make sure you do _TODO_ 8 in main first! ***
+    # The testing code is already written for you; you enabled it via _TODO_ 8.
     #
-    ####################################################################
+    ###########################################################################
     # IMPORTANT: the same
     #    attach_to
     # method works for ALL the rosegraphics shapes!
     # FWIW: The word for ideas like this is "polymorphism".
-    ####################################################################
-    # ------------------------------------------------------------------
+    ###########################################################################
+    # -------------------------------------------------------------------------
 
 
 def run_test_rectangles_from_circles():
@@ -261,9 +262,9 @@ def run_test_rectangles_from_circles():
     print('See   rectangles_from_circles.pdf   in this project')
     print('for pictures of the anticipated results.')
 
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # Test 1 is ALREADY DONE (here).
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     window = rg.RoseWindow(650, 350,
                            'rectangles_from_circles, two tests')
     circles = [rg.Circle(rg.Point(50, 80), 40),
@@ -275,10 +276,10 @@ def run_test_rectangles_from_circles():
     circles[2].fill_color = 'blue'
     circles[3].fill_color = 'green'
 
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # This test calls the   draw_shapes   function that YOU write,
     # above.  So if your   draw_shapes   breaks, so will this test.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     draw_shapes(circles, window)
 
     message = 'The circles to be circumscribed are shown above.'
@@ -301,10 +302,10 @@ def run_test_rectangles_from_circles():
 
     window.continue_on_mouse_click(message)
 
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # Test 2 is ALREADY DONE (here).
     # It runs in the same window as Test 1.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     circles = []
     center = rg.Point(50, 150)
     radius = 35
@@ -346,21 +347,21 @@ def rectangles_from_circles(circles):
       :type circles:  list | tuple of rg.Circle
       :rtype: list of rg.Rectangles
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 10. Implement and test this function.
     #     The testing code is already written for you (above).
     #
-    ####################################################################
+    ###########################################################################
     # IMPORTANT: Examine the testing code above carefully.  Be sure
     #            that you understand WHY the tests are adequate tests!
     #
     # IMPORTANT: The specification does NOT say to draw anything
     #            in this function, so DON'T draw anything in here!
-    ####################################################################
-    # ------------------------------------------------------------------
+    ###########################################################################
+    # -------------------------------------------------------------------------
 
 
-# ----------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
-# ----------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 main()

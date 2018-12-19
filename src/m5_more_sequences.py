@@ -22,10 +22,10 @@ def main():
     run_test_contains_an_a()
 
 
-# ----------------------------------------------------------------------
+###############################################################################
 # Many problems simply iterate (loop) through ALL of the sequence,
 # as in the  sum_radii  problem below.
-# ----------------------------------------------------------------------
+###############################################################################
 def run_test_sum_radii():
     """ Tests the   sum_radii   function. """
     print()
@@ -76,7 +76,7 @@ def sum_radii(circles):
       :type circles:  list | tuple of rg.Circle
       :rtype: int | float
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 2. Implement and test this function.
     #     The testing code is already written for you (above).
     #
@@ -87,13 +87,13 @@ def sum_radii(circles):
     #       or strings, if you happen to know any.
     #
     #       Instead, use explicit loops, as you have for other problems.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
-# ----------------------------------------------------------------------
+###############################################################################
 # Some problems iterate (loop) through PART of the sequence,
 # perhaps BACKWARDS, as in the   count_last_n_odds   problem below.
-# ----------------------------------------------------------------------
+###############################################################################
 def run_test_count_last_n_odds():
     """ Tests the   count_last_n_odds   function. """
     print()
@@ -151,18 +151,18 @@ def count_last_n_odds(integers, n):
       :type n: int
       :rtype: int
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 3. Implement and test this function.
     #     The testing code is already written for you (above).
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
-# ----------------------------------------------------------------------
+###############################################################################
 # Some problems iterate (loop) through PART of the sequence,
 # stopping when the loop FINDS something of interest
 # (or continuing to the end if it does NOT find the thing of interest),
 # as in the following problems:
-# ----------------------------------------------------------------------
+###############################################################################
 def run_test_index_of_first_negative():
     """ Tests the   index_of_first_negative   function. """
     print()
@@ -226,10 +226,10 @@ def index_of_first_negative(numbers):
       :type numbers: list | tuple of float | int
       :rtype: int
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 4. Implement and test this function.
     #     The testing code is already written for you (above).
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
 def run_test_contains_an_a():
@@ -284,23 +284,23 @@ def contains_an_a(s):
       :type s: str
       :rtype: bool
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 5. Implement and test this function.
     #     The testing code is already written for you (above).
     #
-    ####################################################################
+    ###########################################################################
     # IMPORTANT:
     #   -- True  and  False  are built-in constants.
     #      Do NOT return the STRINGs 'True' and 'False'.
-    ####################################################################
+    ###########################################################################
     #
     # Implementation requirement:
     #   Use an explicit loop, as you have done in the other problems.
     #   No fair using the   count   or   find   string methods.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
-# ----------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
-# ----------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 main()
