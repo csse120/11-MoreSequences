@@ -5,7 +5,7 @@ one item at a time, using the ACCUMULATOR pattern.
         sequences, namely by MUTATING their elements.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
+         Mark Hays, Amanda Stouder, Derek Whitley, their colleagues,
          and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
@@ -33,8 +33,8 @@ def run_test_make_simple_list():
     # TODO: 2. Implement this TEST function.
     #   It TESTS the  make_simple_list  function defined below.
     #   Include at least **   2   ** tests.
-    #
-    # Use the same 4-step process as for previous TEST functions.
+    #   ___
+    #   Use the same 4-step process as for previous TEST functions.
     # -------------------------------------------------------------------------
     print()
     print('--------------------------------------------------')
@@ -47,7 +47,10 @@ def run_test_make_simple_list():
     print('Expected:', expected)
     print('Actual:  ', actual)
 
-    # Test 2 (add your test here):
+    # -------------------------------------------------------------------------
+    # TODO: 2 (continued)
+    #  Test 2:  (YOU write THIS test)
+    # -------------------------------------------------------------------------
 
 
 def make_simple_list(m, n):
@@ -80,8 +83,8 @@ def run_test_make_simple_string():
     # TODO: 4. Implement this TEST function.
     #   It TESTS the  make_simple_string  function defined below.
     #   Include at least **   2   ** tests.
-    #
-    # Use the same 4-step process as for previous TEST functions.
+    #   ___
+    #   Use the same 4-step process as for previous TEST functions.
     # -------------------------------------------------------------------------
     print()
     print('--------------------------------------------------')
@@ -238,8 +241,8 @@ def draw_shapes(shapes, window):
     # -------------------------------------------------------------------------
     # TODO: 9. Implement and test this function.
     #             *** Make sure you do _TODO_ 8 in main first! ***
-    # The testing code is already written for you; you enabled it via _TODO_ 8.
-    #
+    #   The testing code is already written for you;
+    #   you enabled it via _TODO_ 8.
     ###########################################################################
     # IMPORTANT: the same
     #    attach_to

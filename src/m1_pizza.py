@@ -6,7 +6,7 @@ This module lets you practice:
   -- CALLING functions
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
+         Mark Hays, Amanda Stouder, Derek Whitley, their colleagues,
          and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
@@ -43,11 +43,11 @@ def run_test_generate_points_on_circle():
     # TODO: 2. Implement this TEST function.
     #   It TESTS the  generate_points_on_circle  function defined below.
     #   Include at least ** 1 ** ADDITIONAL test (that YOU write).
-    #
+    #   ___
     #   As usual, include both EXPECTED and ACTUAL results in your test
     #   and compute the latter BY HAND (not by running your program).
-    #
-    # Your professor may do this exercise with you as "live coding".
+    #   ___
+    #   Your professor may do this exercise with you as "live coding".
     # -------------------------------------------------------------------------
     print()
     print('--------------------------------------------------')
@@ -68,7 +68,8 @@ def run_test_generate_points_on_circle():
     print('Actual:  ', answer)
 
     # -------------------------------------------------------------------------
-    # Test 2:  (YOU write THIS test)
+    # TODO: 2 (continued)
+    #  Test 2:  (YOU write THIS test)
     # -------------------------------------------------------------------------
 
 
@@ -96,7 +97,7 @@ def generate_points_on_circle(circle_for_points, number_of_points_to_generate):
     # -------------------------------------------------------------------------
     # Students:
     #   Do NOT touch the above  generate_points_on_circle function -
-    #     it has no TO DO.
+    #     it has no _TODO_.
     #   Do NOT copy code from this function.
     #
     # Instead, ** CALL ** this function as needed in the problems below.
@@ -144,11 +145,11 @@ def run_test_draw_points_on_circle():
     # TODO: 3. Implement this TEST function.
     #   It TESTS the   draw_points_on_circle   function defined below.
     #   Include at least ** 1 ** ADDITIONAL test (that YOU write).
-    #
+    #   ___
     #   As usual, include both EXPECTED and ACTUAL results in your test
     #   and compute the latter BY HAND (not by running your program).
-    #
-    # Your professor may do this exercise with you as "live coding".
+    #   ___
+    #   Your professor may do this exercise with you as "live coding".
     # -------------------------------------------------------------------------
     print()
     print('--------------------------------------------------')
@@ -176,7 +177,8 @@ def run_test_draw_points_on_circle():
     window.close_on_mouse_click()
 
     # -------------------------------------------------------------------------
-    # Test 4:  (YOU write THIS test)
+    # TODO: 3 (continued)
+    #  Test 4:  (YOU write THIS test)
     # -------------------------------------------------------------------------
 
 
@@ -195,7 +197,7 @@ def draw_points_on_circle(window, circle, number_of_points, color):
 
       1. Attaches the given rg.Circle to the given rg.RoseWindow.
       2. Generates (constructs) the given number of rg.Point objects on the
-           \given rg.Circle's circumference, spaced equally from each other.
+           given rg.Circle's circumference, spaced equally from each other.
       3. For each of those rg.Point objects:
            a. Constructs an rg.Circle centered at that point,
               filled with the given color and with a radius of 10.
@@ -218,12 +220,12 @@ def draw_points_on_circle(window, circle, number_of_points, color):
     # -------------------------------------------------------------------------
     # TODO: 4. Implement and test this function.
     #   Note that you should write its TEST function first (above).
-    #
-    # IMPLEMENTATION REQUIREMENT:
+    #   ___
+    #   IMPLEMENTATION REQUIREMENT:
     #    You MUST USE (call) the   generate_points_on_circle
     #    (defined above) to generate the points to draw.
-    #
-    # Your professor may do this exercise with you as "live coding".
+    #   ___
+    #   Your professor may do this exercise with you as "live coding".
     # -------------------------------------------------------------------------
 
 
@@ -233,7 +235,7 @@ def run_test_pizza():
     # TODO: 5. Implement this TEST function.
     #   It TESTS the   pizza   function defined below.
     #   Include at least ** 1 ** ADDITIONAL test (that YOU write).
-    #
+    #   ___
     #   As usual, include both EXPECTED and ACTUAL results in your test
     #   and compute the latter BY HAND (not by running your program).
     # -------------------------------------------------------------------------
@@ -268,10 +270,10 @@ def run_test_pizza():
     window.close_on_mouse_click()
 
     # -------------------------------------------------------------------------
-    # Test 4:  (YOU write THIS test)
-    #   SUGGESTION:  You might enjoy:
-    #     -- a large number of thin black lines
-    #     -- on a yellow-filled circle.
+    # TODO: 5 (continued)
+    #  Test 4:  (YOU write THIS test).  SUGGESTION:  You might enjoy:
+    #    -- a large number of thin black lines
+    #    -- on a yellow-filled circle.
     # -------------------------------------------------------------------------
 
 
@@ -307,8 +309,8 @@ def pizza(window, circle, number_of_slices, color, thickness):
     # -------------------------------------------------------------------------
     # TODO: 6. Implement and test this function.
     #   Note that you should write its TEST function first (above).
-    #
-    # IMPLEMENTATION REQUIREMENT:
+    #   ___
+    #   IMPLEMENTATION REQUIREMENT:
     #    You MUST USE (call) the   generate_points_on_circle
     #    (defined above) to generate the relevant points,
     #    and then draw lines that are based in part on those points.
@@ -321,7 +323,7 @@ def run_test_polygon():
     # TODO: 7. Implement this TEST function.
     #   It TESTS the   polygon   function defined below.
     #   Include at least ** 1 ** ADDITIONAL test (that YOU write).
-    #
+    #   ___
     #   As usual, include both EXPECTED and ACTUAL results in your test
     #   and compute the latter BY HAND (not by running your program).
     # -------------------------------------------------------------------------
@@ -348,7 +350,8 @@ def run_test_polygon():
     window.close_on_mouse_click()
 
     # -------------------------------------------------------------------------
-    # Test 3:  (YOU write THIS test)
+    # TODO: 7 (continued)
+    #  Test 3:  (YOU write THIS test)
     # -------------------------------------------------------------------------
 
 
@@ -385,8 +388,8 @@ def polygon(window, circle, number_of_segments, color, thickness):
     # -------------------------------------------------------------------------
     # TODO: 8. Implement and test this function.
     #   Note that you should write its TEST function first (above).
-    #
-    # IMPLEMENTATION REQUIREMENT:
+    #   ___
+    #   IMPLEMENTATION REQUIREMENT:
     #    You MUST USE (call) the   generate_points_on_circle
     #    (defined above) to generate the relevant points,
     #    and then draw lines that are based in part on those points.
@@ -399,7 +402,7 @@ def run_test_fancy_polygon():
     # TODO: 9. Implement this TEST function.
     #   It TESTS the   fancy_polygon   function defined below.
     #   Include at least ** 1 ** ADDITIONAL test (that YOU write).
-    #
+    #   ___
     #   As usual, include both EXPECTED and ACTUAL results in your test
     #   and compute the latter BY HAND (not by running your program).
     # -------------------------------------------------------------------------
@@ -434,7 +437,8 @@ def run_test_fancy_polygon():
     window.close_on_mouse_click()
 
     # -------------------------------------------------------------------------
-    # Test 4:  (YOU write THIS test).
+    # TODO: 9 (continued)
+    #  Test 4:  (YOU write THIS test).
     #   If you wish, try even more tests to get some really cool
     #   pictures.  Some that I especially like are:
     #      -- 20 segments, hops of length 5
@@ -506,8 +510,8 @@ def fancy_polygon(window, circle, number_of_lines, hops_to_next_point, color,
     # -------------------------------------------------------------------------
     # TODO: 10. Implement and test this function.
     #   Note that you should write its TEST function first (above).
-    #
-    # IMPLEMENTATION REQUIREMENT:
+    #   ___
+    #  IMPLEMENTATION REQUIREMENT:
     #    You MUST USE (call) the   generate_points_on_circle
     #    (defined above) to generate the relevant points,
     #    and then draw lines that are based in part on those points.

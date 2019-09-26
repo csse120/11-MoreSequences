@@ -7,7 +7,7 @@ This module demonstrates OVERLOADING the  +  symbol:
 This module also demonstrates the   STR   function.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Mark Hays, Amanda Stouder, Aaron Wilkin, and their colleagues.
+         Mark Hays, Amanda Stouder, Derek Whitley, and their colleagues.
 """
 # -----------------------------------------------------------------------------
 #  Students: Read and run this program.  There is nothing else

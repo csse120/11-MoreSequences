@@ -7,7 +7,7 @@ for ITERATING through SEQUENCES, including:
   -- The FIND pattern (via LINEAR SEARCH)
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
+         Mark Hays, Amanda Stouder, Derek Whitley, their colleagues,
          and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
@@ -79,14 +79,14 @@ def sum_radii(circles):
     # -------------------------------------------------------------------------
     # TODO: 2. Implement and test this function.
     #     The testing code is already written for you (above).
-    #
-    # Note: No fair using "slices" on ANY of these problems,
-    #       if you happen to know what they are.
-    #
-    #       Likewise, no fair using any builtin methods on sequences
-    #       or strings, if you happen to know any.
-    #
-    #       Instead, use explicit loops, as you have for other problems.
+    #  ___
+    #  Note: No fair using "slices" on ANY of these problems,
+    #        if you happen to know what they are.
+    #  ___
+    #  Likewise, no fair using any  builtin  methods on sequences
+    #  or strings, if you happen to know any.
+    #  ___
+    #  Instead, use explicit loops, as you have for other problems.
     # -------------------------------------------------------------------------
 
 
@@ -287,17 +287,15 @@ def contains_an_a(s):
     # -------------------------------------------------------------------------
     # TODO: 5. Implement and test this function.
     #     The testing code is already written for you (above).
-    #
+    #  ___
+    #  Implementation requirement:
+    #   Use an explicit loop, as you have done in the other problems.
+    #   No fair using the   count   or   find   string methods.
     ###########################################################################
     # IMPORTANT:
     #   -- True  and  False  are built-in constants.
     #      Do NOT return the STRINGs 'True' and 'False'.
     ###########################################################################
-    #
-    # Implementation requirement:
-    #   Use an explicit loop, as you have done in the other problems.
-    #   No fair using the   count   or   find   string methods.
-    # -------------------------------------------------------------------------
 
 
 # -----------------------------------------------------------------------------
